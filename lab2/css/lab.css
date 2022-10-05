@@ -1,0 +1,21 @@
+h1 {
+    color: white;
+    font-size: 300%;
+}
+
+p  {
+    font-family: serif;
+    text-indent: 40px;
+    margin-left: 20px;
+    font-size: 150%;
+}
+
+#content  {
+  background-color: pink;
+  padding: 20px;
+  margin: 10px;
+  border: solid 5px black;
+  border-style: dashed;
+  border-radius: 20px;
+  font-size: 25px;
+}
