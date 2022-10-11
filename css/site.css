@@ -1,11 +1,11 @@
 #sophieportrait {
+    border-radius: 10px;
     width: 500px;
-    border-radius: 7px;
 }
 
 #kazarinaportrait {
-    width: 500px;
     border-radius: 10px;
+    width: 500px;
 }
 
 body {
