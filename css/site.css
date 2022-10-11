@@ -1,7 +1,47 @@
 #sophie-portrait {
     width: 500px;
+    border-radius: 7px;
 }
 
 #kazarina-portrait {
     width: 500px;
+    border-radius: 10px;
+}
+
+body {
+    background-color: lavender;
+}
+
+#contentsophie {
+    background-color: linen;
+    border-style: dotted;
+    border-color: rosybrown;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 15px;
+    border-width: 10px;
+}
+
+#contentkazarina {
+    background-color: linen;
+    border-style: dotted;
+    border-color: rosybrown;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 50px;
+    border-radius: 15px;
+    border-width: 10px;
+}
+
+.assignments-major-section {
+    margin-top: 50px;
+    padding-left: 25px;
+    background-color: linen;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 15px;
+    border-color: rosybrown;
+
 }
