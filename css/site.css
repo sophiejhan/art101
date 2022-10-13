@@ -45,3 +45,15 @@ body {
     border-color: rosybrown;
 
 }
+
+div {
+    background-color: linen;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 15px;
+    border-color: rosybrown;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 25px;
+}
