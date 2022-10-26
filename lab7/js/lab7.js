@@ -20,4 +20,4 @@ function sortUserName()  {
 
 //output
 document.writeln("Hey! Nice username: ",
-    sortUserName(), "</br>");
+    sortUserName(), "</>");
