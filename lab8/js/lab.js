@@ -12,12 +12,13 @@ function ourFunction(x) {
 console.log("1 + 1 is ", ourFunction(1));
 console.log("33 + 1 is ", ourFunction(33));
 console.log("6 + 1 is ", ourFunction(6));
-console.log("12 + 1 is ", ourFunction(13));
+console.log("12 + 1 is ", ourFunction(12));
 
 array = [2, 7, 17, 91, 63]
 console.log("My array:", array);
 
-var result= array.map(x+1);
+//result variable for array map addition results
+var result= array.map(ourFunction);
 console.log("Addition to array:", result);
 
 //Anon function subtracts 5
@@ -26,4 +27,5 @@ array.map(function(x) {
     return results;
 })
 
-console.log("Subtract 5 from the array:", result);
+//reults to console
+console.log("Subtract 5 from the array:", result)
