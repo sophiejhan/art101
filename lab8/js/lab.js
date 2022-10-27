@@ -2,6 +2,7 @@
 // Created: 26 October 2022
 // License: Public Domain
 
+
 //ourFunction adds 1
 function ourFunction(x) {
     var results = x + 1;
@@ -22,9 +23,13 @@ var result= array.map(ourFunction);
 console.log("Addition to array:", result);
 
 //Anon function subtracts 5
-var result = array.map(function(x) {
+var mapResult = array.map(function(x) {
      return x - 5;
 })
 
 //reults to console
-console.log("Subtract 5 from the array:", result);
+console.log("Subtract 5 from the array:", mapResult);
+
+//bonus
+var outputEl = document.getElementById("output");
+outputEl.innerHTML = "Original array: [" + array + "]. Add 1 to the array: [" + result + "]. Subtract 5 from array: [" + mapResult + "].";
