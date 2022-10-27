@@ -22,10 +22,9 @@ var result= array.map(ourFunction);
 console.log("Addition to array:", result);
 
 //Anon function subtracts 5
-array.map(function(x) {
-    var results = x - 5;
-    return results;
+var result = array.map(function(x) {
+     return x - 5;
 })
 
 //reults to console
-console.log("Subtract 5 from the array:", result)
+console.log("Subtract 5 from the array:", result);
