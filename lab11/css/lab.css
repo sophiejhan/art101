@@ -1,25 +1,66 @@
 body {
-  background-color: darkslategrey;
+  background-color: tan;
 }
 
+
+
 #content {
-  background-color: darkseagreen;
+  background-color: wheat;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-style: outset;
+  border-radius: 15px;
+  border-width: 10px;
+  border-color: sienna;
+}
+
+button {
+  background-color: blanchedalmond;
+  border-radius: 15px;
+}
+
+.specialChal {
+  background-color: powderblue;
   padding-top: 25px;
   padding-bottom: 25px;
   padding-left: 25px;
   padding-right: 25px;
   border-radius: 15px;
   border-width: 10px;
+  border-style: double;
+  border-color: cornflowerblue;
+  color: navy;
 }
 
-button {
-  background-color: beige;
+.specialProb {
+  background-color: olivedrab;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 15px;
+  border-width: 10px;
+  border-style: ridge;
+  border-color: oldlace;
+  color: oldlace;
 }
 
-element.style {
-  background-color: red;
+.specialRes {
+  background-color: honeydew;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 0px;
+  border-width: 10px;
+  border-style: double;
+  border-color: hotpink;
+  color: hotpink;
 }
 
-.special {
-  background-color: red;
+.bonusSpecial {
+  background-color: slateblue;
+  border-radius: 0px;
 }
