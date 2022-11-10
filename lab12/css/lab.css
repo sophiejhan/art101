@@ -1,0 +1,40 @@
+body {
+  background-color: pink;
+}
+
+#content {
+  background-color: beige;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 100px;
+  border-width: 10px;
+  border-style: dotted;
+  border-color: black;
+  color: black;
+  font-family: helvetica;
+  font-size: 20px;
+  text-align: center;
+}
+
+#more-content {
+  margin-top: 25px;
+  text-align: center;
+  background-color: beige;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 100px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  color: black;
+  font-family: helvetica;
+  font-variant: small-caps;
+}
+
+#input-output {
+  text-align: center;
+}
