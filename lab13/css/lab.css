@@ -1,0 +1,35 @@
+body {
+  background-color: #F2C76E;
+}
+
+#content {
+  background-color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-width: 5px;
+  border-style: outset;
+  border-color: #F53163;
+  color: #313178;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#more-content {
+  margin-top: 25px;
+  text-align: center;
+  background-color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #F53163;
+  color: #313178;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-stretch: semi-expanded;
+  font-size: 15px;
+}
