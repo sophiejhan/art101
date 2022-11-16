@@ -11,7 +11,7 @@ function fizzBuzz(){
       } else if (i%21 == 0) {
           console.log("FizzBoom!");
           document.getElementById("output").innerHTML += "FizzBoom! ";
-      } else if (i%15 == 0) {
+      }else if (i%15 == 0) {
           console.log("FizzBuzz!");
           document.getElementById("output").innerHTML += "FizzBuzz! ";
       } else if (i%7 == 0) {

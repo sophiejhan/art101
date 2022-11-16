@@ -13,7 +13,6 @@ myMainRide = {
         return 2019 - age;
     }
 }
-
 document.writeln("Kinds of transport I use: ", myTransport, "</br>");
 document.writeln("My Main Ride: <pre>",
   JSON.stringify(myMainRide, null, '\t'), "</pre>");
