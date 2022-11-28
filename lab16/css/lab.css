@@ -1,0 +1,27 @@
+body {
+  background-color: #ff6666;
+background: linear-gradient(to right, #ff6666, #ffe5a9);
+}
+
+#output {
+  text-align: center;
+  border: none;
+}
+
+p {
+  color: #423f3b;
+}
+
+h1 {
+  color: #525266;
+}
+
+h2 {
+  color: #525266;
+}
+
+div {
+  border-color: #423f3b;
+  border-width: 6px;
+  text-align: center;
+}

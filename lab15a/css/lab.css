@@ -1,0 +1,36 @@
+body {
+  background-color: rosybrown;
+}
+
+#content {
+  background-color: seashell;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-width: 5px;
+  border-radius: 75px;
+  border-style: dashed;
+  border-color: Burlywood;
+  color: #432616;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Trebuchet MS";
+}
+
+#more-content {
+  margin-top: 25px;
+  text-align: center;
+  background-color: seashell;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: burlywood;
+  color: #432616;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-stretch: semi-expanded;
+  font-size: 15px;
+}
